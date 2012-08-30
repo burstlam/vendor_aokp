@@ -10,9 +10,8 @@ PRODUCT_PACKAGES += \
     AOKPtips \
     Apollo \
     AppWidgetPicker \
-    DSPManager \
     LatinImeDictionary \
-    Microbes \
+    MusicFX \
     MusicVisualization \
     NoiseField \
     openvpn \
