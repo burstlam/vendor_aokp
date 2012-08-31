@@ -8,10 +8,8 @@ include vendor/aokp/configs/themes_common.mk
 
 PRODUCT_PACKAGES += \
     AOKPtips \
-    Apollo \
     AppWidgetPicker \
     LatinImeDictionary \
-    MusicFX \
     MusicVisualization \
     NoiseField \
     openvpn \
