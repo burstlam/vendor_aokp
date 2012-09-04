@@ -38,6 +38,11 @@ PRODUCT_COPY_FILES += \
     vendor/aokp/prebuilt/common/etc/apns-conf.xml:system/etc/apns-conf.xml \
     vendor/aokp/prebuilt/common/etc/resolv.conf:system/etc/resolv.conf
 
+# Compcache handler
+PRODUCT_COPY_FILES += \
+    vendor/aokp/prebuilt/common/bin/compcache:system/common/bin/compcache \
+    vendor/aokp/prebuilt/common/bin/handle_compcache:system/bin/handle_compcache \
+
 # init.d
 PRODUCT_COPY_FILES += \
     vendor/aokp/prebuilt/common/etc/init.d/00start:system/etc/init.d/00start \
