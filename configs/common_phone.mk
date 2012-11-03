@@ -5,7 +5,7 @@ PRODUCT_PACKAGES += \
     Torch
 
 # Inherit drm blobs
--include vendor/aokp/configs/common_drm_phone.mk
+#-include vendor/aokp/configs/common_drm_phone.mk
 
 # BT config
 PRODUCT_COPY_FILES += \
