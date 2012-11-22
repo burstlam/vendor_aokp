@@ -16,6 +16,7 @@ PRODUCT_PACKAGES += \
     PhaseBeam \
     ROMControl \
     SuperSU \
+    SuperPRO \
     SwagPapers \
     UnicornPorn
 
