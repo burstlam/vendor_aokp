@@ -36,11 +36,18 @@ PRODUCT_COPY_FILES += \
     vendor/aokp/prebuilt/common/etc/apns-conf.xml:system/etc/apns-conf.xml \
     vendor/aokp/prebuilt/common/etc/resolv.conf:system/etc/resolv.conf
 
+# Compcache
+PRODUCT_COPY_FILES += \
+    vendor/aokp/prebuilt/common/bin/compcache:system/common/bin/compcache \
+    vendor/aokp/prebuilt/common/bin/handle_compcache:system/bin/handle_compcache \
+    vendor/aokp/prebuilt/common/bin/fix_permissions:system/bin/fix_permissions
+
 # init.d
 PRODUCT_COPY_FILES += \
     vendor/aokp/prebuilt/common/etc/init.local.rc:root/init.aokp.rc \
     vendor/aokp/prebuilt/common/etc/init.d/00start:system/etc/init.d/00start \
     vendor/aokp/prebuilt/common/etc/init.d/01sysctl:system/etc/init.d/01sysctl \
+    vendor/aokp/prebuilt/common/etc/init.d/99zRAM:system/init.d/99zRAM \
     vendor/aokp/prebuilt/common/etc/sysctl.conf:system/etc/sysctl.conf \
     vendor/aokp/prebuilt/common/bin/sysinit:system/bin/sysinit
 
