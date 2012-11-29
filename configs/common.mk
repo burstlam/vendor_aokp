@@ -6,14 +6,16 @@ PRODUCT_PACKAGES += \
     AppWidgetPicker \
     LatinImeGoogle \
     LatinImeDictionary \
-    NovaLauncher \
     PerformanceControl \
     ROMControl \
+    RootExplorer \
     SuperSU \
+    SuperSUPro \
     SwagPapers \
     Torch \
     UnicornPorn
 
+#    NovaLauncher \
 #    Microbes \
 #    vendor/aokp/prebuilt/common/lib/libmicrobes_jni.so:system/lib/libmicrobes_jni.so \
 
