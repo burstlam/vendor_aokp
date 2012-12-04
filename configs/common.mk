@@ -6,6 +6,7 @@ PRODUCT_PACKAGES += \
     AppWidgetPicker \
     LatinImeGoogle \
     LatinImeDictionary \
+    Microbes \
     PerformanceControl \
     ROMControl \
     RootExplorer \
@@ -16,8 +17,6 @@ PRODUCT_PACKAGES += \
     UnicornPorn
 
 #    NovaLauncher \
-#    Microbes \
-#    vendor/aokp/prebuilt/common/lib/libmicrobes_jni.so:system/lib/libmicrobes_jni.so \
 
 # Use prebuilt su until fixed when built
 PRODUCT_COPY_FILES += \
@@ -35,6 +34,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.kernel.android.checkjni=0
 
 PRODUCT_COPY_FILES += \
+    vendor/aokp/prebuilt/common/lib/libmicrobes_jni.so:system/lib/libmicrobes_jni.so \
     vendor/aokp/prebuilt/common/lib/libjni_latinimegoogle.so:system/lib/libjni_latinimegoogle.so \
     vendor/aokp/prebuilt/common/etc/apns-conf.xml:system/etc/apns-conf.xml \
     vendor/aokp/prebuilt/common/etc/resolv.conf:system/etc/resolv.conf
