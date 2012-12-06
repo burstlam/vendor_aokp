@@ -1,6 +1,17 @@
 # Common overlay
 PRODUCT_PACKAGE_OVERLAYS += vendor/aokp/overlay/common
 
+# Optional CM packages
+PRODUCT_PACKAGES += \
+    HoloSpiralWallpaper \
+    MagicSmokeWallpapers \
+    NoiseField \
+    Galaxy4 \
+    LiveWallpapers \
+    LiveWallpapersPicker \
+    VisualizationWallpapers \
+    PhaseBeam
+
 PRODUCT_PACKAGES += \
     AOKPtips \
     AppWidgetPicker \
@@ -76,8 +87,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.config.ringtone=Scarabaeus.ogg \
     ro.config.notification_sound=Antimony.ogg \
     ro.config.alarm_alert=Scandium.ogg
-
-PRODUCT_COPY_FILES += packages/wallpapers/LivePicker/android.software.live_wallpaper.xml:/system/etc/permissions/android.software.live_wallpaper.xml
 
 # Inherit common build.prop overrides
 -include vendor/aokp/configs/common_versions.mk
