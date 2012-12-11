@@ -14,6 +14,7 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_PACKAGES += \
     AOKPtips \
+	ApexLauncher \
     AppWidgetPicker \
     LatinImeGoogle \
     LatinImeDictionary \
