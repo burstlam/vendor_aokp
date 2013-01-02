@@ -54,7 +54,7 @@ PRODUCT_COPY_FILES += \
 
 # Compcache
 PRODUCT_COPY_FILES += \
-    vendor/aokp/prebuilt/common/bin/compcache:system/common/bin/compcache \
+    vendor/aokp/prebuilt/common/bin/compcache:system/bin/compcache \
     vendor/aokp/prebuilt/common/bin/handle_compcache:system/bin/handle_compcache \
     vendor/aokp/prebuilt/common/bin/fix_permissions:system/bin/fix_permissions
 
