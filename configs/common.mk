@@ -23,7 +23,7 @@ PRODUCT_PACKAGES += \
     DSPManager \
     libcyanogen-dsp \
     audio_effects.conf \
-    LatinImeDictionary \
+    LatinImeDictionaryPack \
     LockClock \
     Microbes \
     ROMControl \
