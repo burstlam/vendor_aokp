@@ -20,6 +20,9 @@ PRODUCT_PACKAGES += \
     AppWidgetPicker \
     Apollo \
     Chronus \
+    DSPManager \
+    libcyanogen-dsp \
+    audio_effects.conf \
     LatinImeDictionary \
     LockClock \
     Microbes \
