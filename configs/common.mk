@@ -26,7 +26,6 @@ PRODUCT_PACKAGES += \
     LatinImeDictionary \
     LockClock \
     Microbes \
-    PerformanceControl \
     ROMControl \
     RootExplorer \
     SuperSU \
