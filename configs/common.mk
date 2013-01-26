@@ -28,6 +28,7 @@ PRODUCT_PACKAGES += \
     Microbes \
     ROMControl \
     RootExplorer \
+    PerformanceControl \
     SuperSU \
     SuperSUPro \
     SwagPapers \

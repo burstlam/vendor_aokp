@@ -1,2 +1,2 @@
 #!/system/bin/sh
-sysctl -p
+sysctl -p /system/etc/sysctl.conf
