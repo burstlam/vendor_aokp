@@ -94,6 +94,10 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.config.notification_sound=Antimony.ogg \
     ro.config.alarm_alert=Scandium.ogg
 
+# DPI Per APP
+PRODUCT_COPY_FILES += \
+    vendor/aokp/prebuilt/dpi/xhdpi.conf:system/etc/burstlam/properties.conf
+
 # Enable Xbox 360 and Ps3 Controller support
 PRODUCT_COPY_FILES += \
     frameworks/base/data/keyboards/Vendor_045e_Product_028e.kl:system/usr/keylayout/Vendor_045e_Product_0719.kl \
