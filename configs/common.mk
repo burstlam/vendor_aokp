@@ -28,7 +28,6 @@ PRODUCT_PACKAGES += \
     Microbes \
     ROMControl \
     RootExplorer \
-    PerformanceControl \
     SuperSU \
     SuperSUPro \
     SwagPapers \
@@ -36,6 +35,7 @@ PRODUCT_PACKAGES += \
     UnicornPorn
 
 #    NovaLauncher \
+#    PerformanceControl \
 
 # Use prebuilt su until fixed when built
 PRODUCT_COPY_FILES += \
