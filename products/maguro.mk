@@ -24,4 +24,5 @@ PRODUCT_BUILD_PROP_OVERRIDES := PRODUCT_NAME=yakju BUILD_FINGERPRINT=google/yakj
 #    Thinkfree
 
 PRODUCT_COPY_FILES += \
-    vendor/aokp/prebuilt/bootanimation/bootanimation_720_1280.zip:system/media/bootanimation.zip
+    vendor/aokp/prebuilt/bootanimation/bootanimation.zip:system/media/bootanimation.zip \
+    vendor/aokp/prebuilt/bootanimation/bootanimation-alt.zip:system/media/bootanimation-alt.zip
