@@ -20,6 +20,7 @@ PRODUCT_PACKAGES += \
     AppWidgetPicker \
     Apollo \
     Chronus \
+    Development \
     DSPManager \
     libcyanogen-dsp \
     audio_effects.conf \
