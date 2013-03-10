@@ -29,18 +29,11 @@ PRODUCT_PACKAGES += \
     Microbes \
     ROMControl \
     RootExplorer \
-    SuperSU \
-    SuperSUPro \
     SwagPapers \
     Torch \
     UnicornPorn
 
-#    NovaLauncher \
 #    PerformanceControl \
-
-# Use prebuilt su until fixed when built
-PRODUCT_COPY_FILES += \
-    vendor/aokp/prebuilt/common/xbin/su:system/xbin/su
 
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.url.legal=http://www.google.com/intl/%s/mobile/android/basic/phone-legal.html \
