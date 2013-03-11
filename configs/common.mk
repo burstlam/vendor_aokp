@@ -15,6 +15,9 @@ PRODUCT_PACKAGES += \
 # Common dictionaries
 PRODUCT_PACKAGE_OVERLAYS += vendor/aokp/overlay/dictionaries
 
+# Superuser
+SUPERUSER_EMBEDDED := true
+
 PRODUCT_PACKAGES += \
     AOKPtips \
     AppWidgetPicker \
@@ -29,6 +32,8 @@ PRODUCT_PACKAGES += \
     Microbes \
     ROMControl \
     RootExplorer \
+    Superuser \
+    su \
     SwagPapers \
     Torch \
     UnicornPorn
