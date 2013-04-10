@@ -29,6 +29,7 @@ PRODUCT_PACKAGES += \
     audio_effects.conf \
     LatinImeDictionaryPack \
     LockClock \
+    mGerrit \
     Microbes \
     ROMControl \
     RootExplorer \
