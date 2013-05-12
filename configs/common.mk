@@ -110,6 +110,10 @@ PRODUCT_COPY_FILES += \
     frameworks/base/data/keyboards/Vendor_045e_Product_028e.kl:system/usr/keylayout/Vendor_045e_Product_0719.kl \
     frameworks/base/data/keyboards/Vendor_054c_Product_0268.kl:system/usr/keylayout/Vendor_054c_Product_0268.kl
 
+# Mokee PhoneLoc
+PRODUCT_COPY_FILES +=  \
+    vendor/aokp/prebuilt/common/media/mokee-phoneloc.dat:system/etc/phoneloc.dat
+
 # Inherit common build.prop overrides
 -include vendor/aokp/configs/common_versions.mk
 
