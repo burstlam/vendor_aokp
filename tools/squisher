@@ -166,6 +166,14 @@ DEVICE=`sed -n -e'/ro\.aokp\.device/s/^.*=//p' $REPACK/ota/system/build.prop`
 OUTFILE=$OUT/$MODVERSION.zip
 echo MODVERSION: $MODVERSION
 
+# Copy PA overlays
+printf "Copying overlay preferences for $OVERLAYTARGET..."
+echo
+mkdir $REPACK/ota/system/etc/paranoid/preferences
+mkdir $REPACK/ota/system/etc/paranoid/preferences/images
+cp -r $ANDROID_BUILD_TOP/vendor/aokp/prebuilt/preferences/images/* $REPACK/ota/system/etc/paranoid/preferences/images/
+cp -r $ANDROID_BUILD_TOP/vendor/aokp/prebuilt/preferences/$OVERLAYTARGET/* $REPACK/ota/system/etc/paranoid/preferences/
+
 # Pack it up and sign
 echo -e $CL_CYN"Zipping package..."$CL_RST
 ( cd $REPACK/ota; zip $QUIET -r $REPACK/update.zip . )

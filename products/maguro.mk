@@ -10,6 +10,9 @@ $(call inherit-product, vendor/aokp/configs/gsm.mk)
 # Tuna Overlay
 PRODUCT_PACKAGE_OVERLAYS += vendor/aokp/overlay/tuna
 
+# PA OVERLAY_TARGET
+OVERLAY_TARGET := pa_xhdpi
+
 # Setup device specific product configuration.
 PRODUCT_NAME := aokp_maguro
 PRODUCT_BRAND := google

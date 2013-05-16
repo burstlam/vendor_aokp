@@ -101,9 +101,32 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.config.notification_sound=Antimony.ogg \
     ro.config.alarm_alert=Scandium.ogg
 
-# DPI Per APP
+# PA Packages
+PRODUCT_PACKAGES += \
+    ParanoidPreferences 
+
+# RootBox build.prop tweaks
+PRODUCT_PROPERTY_OVERRIDES += \
+ro.pa.family=$(OVERLAY_TARGET)
+
+# ParanoidAndroid Overlays
+PRODUCT_PACKAGE_OVERLAYS += vendor/aokp/prebuilt/preferences/$(TARGET_PRODUCT)
+
+# Allow device family to add overlays and use a same prop.conf
+ifneq ($(OVERLAY_TARGET),)
+    PRODUCT_PACKAGE_OVERLAYS += vendor/aokp/overlay/$(OVERLAY_TARGET)
+    PA_CONF_SOURCE := $(OVERLAY_TARGET)
+else
+    PA_CONF_SOURCE := $(TARGET_PRODUCT)
+endif
+
 PRODUCT_COPY_FILES += \
-    vendor/aokp/prebuilt/dpi/xhdpi.conf:system/etc/burstlam/properties.conf
+    vendor/aokp/prebuilt/$(PA_CONF_SOURCE).conf:system/etc/paranoid/properties.conf \
+    vendor/aokp/prebuilt/$(PA_CONF_SOURCE).conf:system/etc/paranoid/backup.conf
+
+# DPI Per APP
+#PRODUCT_COPY_FILES += \
+#    vendor/aokp/prebuilt/dpi/xhdpi.conf:system/etc/burstlam/properties.conf
 
 # Enable Xbox 360 and Ps3 Controller support
 PRODUCT_COPY_FILES += \
