@@ -10,10 +10,10 @@ ifneq ($(AOKP_BUILD),)
 	    ro.goo.developerid=aokp \
 	    ro.goo.rom=aokp \
 	    ro.goo.version=$(shell echo $(AOKP_BUILD) | cut -d/ -f1) \
-		ro.aokp.version=AOKP-$(AOKP_BRANCH)-MAGURO-$(DATE)-Burst-Kernel-KANG
+		ro.aokp.version=AOKP-$(AOKP_BRANCH)-MAGURO-$(DATE)-SlimPie-Burst-Kernel-KANG
 else
 	PRODUCT_PROPERTY_OVERRIDES += \
-		ro.aokp.version=AOKP-$(AOKP_BRANCH)-MAGURO-$(DATE)-Burst-Kernel-KANG
+		ro.aokp.version=AOKP-$(AOKP_BRANCH)-MAGURO-$(DATE)-SlimPie-Burst-Kernel-KANG
 endif
 
 # needed for statistics
