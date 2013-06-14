@@ -25,6 +25,7 @@ PRODUCT_PACKAGES += \
     Chronus \
     DSPManager \
     DashClock \
+    HALO \
     libcyanogen-dsp \
     audio_effects.conf \
     LatinImeDictionaryPack \
