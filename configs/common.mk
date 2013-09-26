@@ -12,7 +12,6 @@ PRODUCT_PACKAGES += \
     CellBroadcastReceiver \
     LatinImeDictionaryPack \
     mGerrit \
-    Microbes \
     PermissionsManager \
     ROMControl \
     Stk \
@@ -20,7 +19,35 @@ PRODUCT_PACKAGES += \
     su \
     SwagPapers \
     Torch \
-    UnicornPorn
+
+# Extra Optional packages
+PRODUCT_PACKAGES += \
+    ApexLauncher \
+    DashClock \
+    LockClock \
+    RootExplorer
+
+# Apollo & DSPManager
+PRODUCT_PACKAGES += \
+    Apollo \
+    DSPManager \
+    libcyanogen-dsp \
+    audio_effects.conf
+
+# Copy phoneloc files
+PRODUCT_COPY_FILES += \
+    vendor/aokp/prebuilt/common/lib/libphoneloc-jni.so:system/lib/libphoneloc-jni.so \
+    vendor/aokp/prebuilt/common/usr/share/phoneloc.dat:system/usr/share/phoneloc.dat
+
+# Enable Xbox 360 and Ps3 Controller support
+PRODUCT_COPY_FILES += \
+    frameworks/base/data/keyboards/Vendor_045e_Product_028e.kl:system/usr/keylayout/Vendor_045e_Product_0719.kl \
+    frameworks/base/data/keyboards/Vendor_054c_Product_0268.kl:system/usr/keylayout/Vendor_054c_Product_0268.kl
+
+# Compcache/Zram support
+PRODUCT_COPY_FILES += \
+    vendor/aokp/prebuilt/common/bin/compcache:system/bin/compcache \
+    vendor/aokp/prebuilt/common/bin/handle_compcache:system/bin/handle_compcache
 
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.url.legal=http://www.google.com/intl/%s/mobile/android/basic/phone-legal.html \
@@ -40,7 +67,6 @@ PRODUCT_COPY_FILES += \
     vendor/aokp/prebuilt/common/etc/persist.conf:system/etc/persist.conf
 
 PRODUCT_COPY_FILES += \
-    vendor/aokp/prebuilt/common/lib/libmicrobes_jni.so:system/lib/libmicrobes_jni.so \
     vendor/aokp/prebuilt/common/etc/resolv.conf:system/etc/resolv.conf
 
 # init.d
