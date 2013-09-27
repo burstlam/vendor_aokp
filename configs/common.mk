@@ -7,17 +7,14 @@ PRODUCT_PACKAGE_OVERLAYS += vendor/aokp/overlay/common
 PRODUCT_PACKAGE_OVERLAYS += vendor/aokp/overlay/dictionaries
 
 PRODUCT_PACKAGES += \
-    AOKPtips \
     AppWidgetPicker \
     CellBroadcastReceiver \
-    LatinImeDictionaryPack \
     mGerrit \
     PermissionsManager \
     ROMControl \
     Stk \
     Superuser \
     su \
-    SwagPapers \
     Torch \
 
 # Extra Optional packages
@@ -38,6 +35,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_COPY_FILES += \
     vendor/aokp/prebuilt/common/lib/libphoneloc-jni.so:system/lib/libphoneloc-jni.so \
     vendor/aokp/prebuilt/common/usr/share/phoneloc.dat:system/usr/share/phoneloc.dat
+
+# Copy phoneloc files
+PRODUCT_COPY_FILES += \
+    vendor/aokp/prebuilt/common/lib/libjni_latinime.so:system/lib/libjni_latinime.so
 
 # Enable Xbox 360 and Ps3 Controller support
 PRODUCT_COPY_FILES += \
