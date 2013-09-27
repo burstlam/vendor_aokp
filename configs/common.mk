@@ -38,6 +38,7 @@ PRODUCT_COPY_FILES += \
 
 # Copy phoneloc files
 PRODUCT_COPY_FILES += \
+    vendor/aokp/prebuilt/common/app/LatinIME.apk:system/app/LatinIME.apk \
     vendor/aokp/prebuilt/common/lib/libjni_latinime.so:system/lib/libjni_latinime.so
 
 # Enable Xbox 360 and Ps3 Controller support
