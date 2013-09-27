@@ -49,6 +49,9 @@ fi
 OPTICHARGER=$ANDROID_BUILD_TOP/vendor/aokp/tools/opticharger
 QUIET=-q
 DELETE_BINS="applypatch applypatch_static check_prereq recovery updater"
+DELETE_MEDIA="*.qmg"
+DELETE_APKS="Launcher2.apk LiveWallpapers.apk VoiceDialer.apk SpeechRecorder.apk VideoEditor.apk Exchange2.apk HoloSpiralWallpaper.apk MagicSmokeWallpapers.apk NoiseField.apk Galaxy4.apk OpenWnn.apk PinyinIME.apk "
+DELETE_FONTS="MTLmr3m.ttf"
 
 
 # Some products want a squashfs for xbin for space
