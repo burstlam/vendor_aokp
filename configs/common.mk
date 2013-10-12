@@ -8,6 +8,7 @@ PRODUCT_PACKAGE_OVERLAYS += vendor/aokp/overlay/dictionaries
 
 PRODUCT_PACKAGES += \
     AppWidgetPicker \
+    BluetoothExt \
     CellBroadcastReceiver \
     mGerrit \
     PermissionsManager \
