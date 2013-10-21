@@ -22,7 +22,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     ApexLauncher \
     DashClock \
+    Firewall \
+    Halo \
     LockClock \
+    PerformanceControl \
     RootExplorer
 
 # Apollo & DSPManager
