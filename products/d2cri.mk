@@ -23,4 +23,5 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     PRIVATE_BUILD_DESC="d2cri-user 4.1.2 JZO54K R530CVVBMD6 release-keys"
 
 PRODUCT_COPY_FILES += \
-    vendor/du/prebuilt/bootanimation/bootanimation_720_1280.zip:system/media/bootanimation.zip
+    vendor/du/prebuilt/bootanimation/bootanimation_720_1280.zip:system/media/bootanimation.zip \
+    vendor/du/hybrid/hybrid_xhdpi.conf:system/etc/beerbong/properties.conf
