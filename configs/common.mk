@@ -70,7 +70,7 @@ PRODUCT_COPY_FILES += \
 
 # init.d
 PRODUCT_COPY_FILES += \
-    vendor/du/prebuilt/common/etc/init.local.rc:root/init.aokp.rc \
+    vendor/du/prebuilt/common/etc/init.local.rc:root/init.du.rc \
     vendor/du/prebuilt/common/etc/init.d/00start:system/etc/init.d/00start \
     vendor/du/prebuilt/common/etc/init.d/01sysctl:system/etc/init.d/01sysctl \
     vendor/du/prebuilt/common/etc/sysctl.conf:system/etc/sysctl.conf \
