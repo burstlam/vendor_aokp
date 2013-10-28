@@ -25,4 +25,4 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
 # boot animation
 PRODUCT_COPY_FILES += \
     vendor/du/prebuilt/bootanimation/bootanimation_720_1280.zip:system/media/bootanimation.zip \
-    vendor/du/hybrid/hybrid_xhdpi.conf:system/etc/beerbong/properties.conf
+    vendor/du/hybrid/hybrid_d2.conf:system/etc/beerbong/properties.conf

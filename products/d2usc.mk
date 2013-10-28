@@ -21,5 +21,5 @@ PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME=d2usc TARGET_DEVICE=d2usc BUILD_FIN
 # boot animation
 PRODUCT_COPY_FILES += \
     vendor/du/prebuilt/bootanimation/bootanimation_720_1280.zip:system/media/bootanimation.zip \
-    vendor/du/hybrid/hybrid_xhdpi.conf:system/etc/beerbong/properties.conf
+    vendor/du/hybrid/hybrid_d2.conf:system/etc/beerbong/properties.conf
 
