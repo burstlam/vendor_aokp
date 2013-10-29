@@ -7,11 +7,9 @@ PRODUCT_PACKAGE_OVERLAYS += vendor/aokp/overlay/common
 PRODUCT_PACKAGE_OVERLAYS += vendor/aokp/overlay/dictionaries
 
 PRODUCT_PACKAGES += \
-    AppWidgetPicker \
     BluetoothExt \
     CellBroadcastReceiver \
     mGerrit \
-    PermissionsManager \
     ROMControl \
     Stk \
     Superuser \
@@ -88,7 +86,6 @@ PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.software.sip.voip.xml:system/etc/permissions/android.software.sip.voip.xml
 
 PRODUCT_PACKAGES += \
-    openvpn \
     e2fsck \
     mke2fs \
     tune2fs \
@@ -99,7 +96,12 @@ PRODUCT_PACKAGES += \
     ssh-keygen \
     start-ssh \
     sftp \
-    scp
+    scp \
+    mount.exfat \
+    fsck.exfat \
+    mkfs.exfat \
+    ntfsfix \
+    ntfs-3g
 
 # Default ringtone
 PRODUCT_PROPERTY_OVERRIDES += \
