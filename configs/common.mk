@@ -53,6 +53,15 @@ PRODUCT_COPY_FILES += \
     vendor/aokp/prebuilt/common/bin/compcache:system/bin/compcache \
     vendor/aokp/prebuilt/common/bin/handle_compcache:system/bin/handle_compcache
 
+# SuperSU 1.65
+PRODUCT_COPY_FILES += \
+    vendor/aokp/prebuilt/common/app/Superuser.apk:system/app/Superuser \
+    vendor/aokp/prebuilt/common/bin/chattr:system/bin/chattr \
+    vendor/aokp/prebuilt/common/etc/init.d/01SuperUser:system/etc/init.d \
+    vendor/aokp/prebuilt/common/etc/init.d/99SuperSUDaemon:system/init.d/99SuperSUDaemon \
+    vendor/aokp/prebuilt/common/etc/install-recovery.sh:system/etc/install-recovery.sh \
+    vendor/aokp/prebuilt/common/xbin/su:system/xbin/su
+
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.url.legal=http://www.google.com/intl/%s/mobile/android/basic/phone-legal.html \
     ro.url.legal.android_privacy=http://www.google.com/intl/%s/mobile/android/basic/privacy.html \
