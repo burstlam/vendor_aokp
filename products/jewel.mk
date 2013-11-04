@@ -22,4 +22,5 @@ DEVICE_PACKAGE_OVERLAYS += vendor/du/overlay/jewel
 PRODUCT_RELEASE_NAME := jewel
 
 PRODUCT_COPY_FILES += \
-    vendor/du/prebuilt/bootanimation/bootanimation_1280_800.zip:system/media/bootanimation.zip
+    vendor/du/prebuilt/bootanimation/bootanimation_1280_800.zip:system/media/bootanimation.zip \
+    vendor/du/hybrid/hybrid_xhdpi.conf:system/etc/beerbong/properties.conf
