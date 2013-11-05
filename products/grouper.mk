@@ -18,4 +18,5 @@ PRODUCT_BUILD_PROP_OVERRIDES := PRODUCT_NAME=nakasi BUILD_FINGERPRINT=google/nak
 
 PRODUCT_COPY_FILES += \
     vendor/du/prebuilt/bootanimation/bootanimation_1280_800.zip:system/media/bootanimation.zip \
-    vendor/du/prebuilt/bootanimation/bootanimation_1280_800.zip:system/media/bootanimation-alt.zip
+    vendor/du/prebuilt/bootanimation/bootanimation_1280_800.zip:system/media/bootanimation-alt.zip \
+    vendor/du/hybrid/hybrid_tvdpi.conf:system/etc/beerbong/properties.conf
