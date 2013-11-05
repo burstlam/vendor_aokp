@@ -115,7 +115,7 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PROPERTY_OVERRIDES += \
 ro.romstats.url=http://stats.dirtyunicorns.com/ \
 ro.romstats.name=DirtyUnicorns \
-ro.romstats.version=3.9.9 \
+ro.romstats.version=4.0 \
 ro.romstats.tframe=3
 
 # DU OTA
