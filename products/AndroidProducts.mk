@@ -9,6 +9,7 @@ PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/exhilarate \
     $(LOCAL_DIR)/fascinatemtd \
     $(LOCAL_DIR)/hercules \
+    $(LOCAL_DIR)/i9300.mk \
     $(LOCAL_DIR)/jewel \
     $(LOCAL_DIR)/l900 \
     $(LOCAL_DIR)/maguro \

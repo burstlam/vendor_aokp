@@ -9,6 +9,7 @@ add_lunch_combo du_exhilarate-userdebug
 add_lunch_combo du_fascinatemtd-userdebug
 add_lunch_combo du_grouper-userdebug
 add_lunch_combo du_hercules-userdebug
+add_lunch_combo du_i9300-userdebug
 add_lunch_combo du_jewel-userdebug
 add_lunch_combo du_l900-userdebug
 add_lunch_combo du_maguro-userdebug
