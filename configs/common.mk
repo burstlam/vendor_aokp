@@ -1,4 +1,4 @@
-SUPERUSER_EMBEDDED := true
+SUPERUSER_EMBEDDED := false
 
 # Common overlay
 PRODUCT_PACKAGE_OVERLAYS += vendor/aokp/overlay/common
@@ -18,7 +18,7 @@ PRODUCT_PACKAGES += \
 
 # Extra Optional packages
 PRODUCT_PACKAGES += \
-    ApexLauncher \
+    NovaLauncher \
     DashClock \
     Firewall \
     Halo \
@@ -55,7 +55,7 @@ PRODUCT_COPY_FILES += \
 
 # SuperSU 1.65
 PRODUCT_COPY_FILES += \
-    vendor/aokp/prebuilt/common/app/Superuser.apk:system/app/Superuser \
+    vendor/aokp/prebuilt/common/app/Superuser.apk:system/app/Superuser.apk \
     vendor/aokp/prebuilt/common/bin/chattr:system/bin/chattr \
     vendor/aokp/prebuilt/common/etc/init.d/01SuperUser:system/etc/init.d \
     vendor/aokp/prebuilt/common/etc/init.d/99SuperSUDaemon:system/init.d/99SuperSUDaemon \
