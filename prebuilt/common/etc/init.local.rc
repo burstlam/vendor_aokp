@@ -18,3 +18,11 @@ service sysinit /system/bin/sysinit
     oneshot
 
 import /init.superuser.rc
+
+# Compcache - handle at boot
+service compcache /system/bin/handle_compcache
+    class main
+    user root
+    group root
+    oneshot
+
