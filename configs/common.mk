@@ -51,7 +51,9 @@ PRODUCT_COPY_FILES += \
 # Compcache/Zram support
 PRODUCT_COPY_FILES += \
     vendor/aokp/prebuilt/common/bin/compcache:system/bin/compcache \
-    vendor/aokp/prebuilt/common/bin/handle_compcache:system/bin/handle_compcache
+    vendor/aokp/prebuilt/common/bin/handle_compcache:system/bin/handle_compcache \
+    vendor/aokp/prebuilt/common/xbin/sysro:system/xbin/sysro \
+    vendor/aokp/prebuilt/common/xbin/sysrw:system/xbin/sysrw
 
 # SuperSU 1.65
 PRODUCT_COPY_FILES += \
