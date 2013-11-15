@@ -24,4 +24,5 @@ PRODUCT_PACKAGES += \
     Thinkfree
 
 PRODUCT_COPY_FILES += \
-    vendor/aokp/prebuilt/bootanimation/bootanimation_720_1280.zip:system/media/bootanimation-alt.zip
+    vendor/aokp/prebuilt/bootanimation/bootanimation_720_1280.zip:system/media/bootanimation-alt.zip \
+    vendor/aokp/hybrid/hybrid_xhdpi.conf:system/etc/burstlam/properties.conf
