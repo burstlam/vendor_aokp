@@ -1,5 +1,8 @@
 SUPERUSER_EMBEDDED := false
 
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.build.selinux=1
+
 # Common overlay
 PRODUCT_PACKAGE_OVERLAYS += vendor/aokp/overlay/common
 
@@ -22,6 +25,7 @@ PRODUCT_PACKAGES += \
     DashClock \
     Firewall \
     Halo \
+    HostsFileManager \
     LockClock \
     PerformanceControl \
     RootExplorer
@@ -32,6 +36,11 @@ PRODUCT_PACKAGES += \
     DSPManager \
     libcyanogen-dsp \
     audio_effects.conf
+
+# Host files
+PRODUCT_COPY_FILES += \
+    vendor/aokp/prebuilt/common/etc/hosts.alt:system/etc/hosts.alt \
+    vendor/aokp/prebuilt/common/etc/hosts.og:system/etc/hosts.og
 
 # Copy phoneloc files
 PRODUCT_COPY_FILES += \
