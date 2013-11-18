@@ -52,6 +52,11 @@ PRODUCT_COPY_FILES += \
     vendor/aokp/prebuilt/common/app/LatinIME.apk:system/app/LatinIME.apk \
     vendor/aokp/prebuilt/common/lib/libjni_latinime.so:system/lib/libjni_latinime.so
 
+# Terminal
+PRODUCT_COPY_FILES += \
+    vendor/aokp/prebuilt/common/app/Term.apk:system/app/Term.apk \
+    vendor/aokp/prebuilt/common/lib/libjackpal-androidterm4.so:system/lib/libjackpal-androidterm4.so 
+
 # Enable Xbox 360 and Ps3 Controller support
 PRODUCT_COPY_FILES += \
     frameworks/base/data/keyboards/Vendor_045e_Product_028e.kl:system/usr/keylayout/Vendor_045e_Product_0719.kl \
